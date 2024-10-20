@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Hind Vadodara", sans-serif;
+    font-style: normal;
+    
+}
+
+header {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h2 {
+    margin: 0px;
+    padding-right: 200px;
+}
+
+nav {
+    padding-right: 70px;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.button-id {
+   display: flex;
+   gap: 20px;
+   flex-wrap: wrap;
+}
+
+select {
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+   
+}
+option {
+    background: white;
+    color: black;
+    
+}
+ 
+.button-id button {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+
+.main {
+    font-size: 25px;
+    font-weight: 200px;
+}
+
+.main-title {
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.image img {
+    height: 480px;
+    width: 930px;
+    border-radius: 20px;
+}
+.image {
+    padding-left: 60px;
+}
+
+.house-details {
+    display: flex;
+    gap: 20px;
+}
+.details {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-shadow: 1px 3px 10px 1px whitesmoke;
+    border-radius: 20px;
+}
+.house-address {
+    gap: 30px;
+    font-size: 18px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+    font-size: 18px;
+}
+.agent img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.price {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.price button {
+    background: white;
+    color: black;
+    border: 1px solid;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.agent-details {
+    margin-top: 5px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px 1px gainsboro;
+    background: gainsboro;
+}
+.agent {
+    padding: 10px;
+    display: flex;
+    gap: 150px;
+}
+.agent-name {
+    display: flex;
+    gap: 40px;
+}
+.agent-name button {
+    border: 1px solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: white;
+    color: black;
+    border-radius: 20px;
+}
+.tour {
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 40px;
+    background: black;
+    color: white;
+}
+footer {
+    background-color: #f8f8f8;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    border: 1px solid;
+    width: 1325px;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-details p,i{
+    font-size: 20px;
+    color: black;
+
+}
+
+.footer-details  div {
+    background-color: #fff;
+    color: slategrey;
+    margin: 5px;
+    border-radius: 50px;
+    border: 1px solid;
+    padding-top:10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.footer-details button {
+    margin: 5px;
+    margin-right: 5px;
+    padding: 10px 40px;
+    background: black;
+    color: #fff;
+    border-radius: 50px;
+}
